@@ -139,7 +139,8 @@
                 <img src="assets/img/about1.jpg" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Mobile and Web Developer, with extensive knowledge and a couple years of experience,
+                    <p class="about__description">Mobile and Web Developer, with extensive knowledge and a couple years
+                        of experience,
                         working in web/mobile technologies, delivering quality work</p>
 
                     <div class="about__info">
@@ -462,8 +463,10 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Label.ml</h3>
-                            <p class="portfolio__description">Open project which allows researchers to be able to get their data labelled and pay others using a virtual currency</p>
-                            <a href="https://faisal2754.github.io/Web-Data-Labelling-v2/#/" target="_blank" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">Open project which allows researchers to be able to get
+                                their data labelled and pay others using a virtual currency</p>
+                            <a href="https://faisal2754.github.io/Web-Data-Labelling-v2/#/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -476,8 +479,10 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Space invader</h3>
-                            <p class="portfolio__description">A free to play game involving going through obstaccles by navigating a spacecraft</p>
-                            <a href="https://lamp.ms.wits.ac.za/~cgv2021-25/myAwesomeGameFolder/" target="_blank" class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">A free to play game involving going through obstaccles by
+                                navigating a spacecraft</p>
+                            <a href="https://lamp.ms.wits.ac.za/~cgv2021-25/myAwesomeGameFolder/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -489,8 +494,10 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Xanathu - Online Shopify Store</h3>
-                            <p class="portfolio__description">An Online Shopify Store based in South Africa for an up and coming business</p>
-                            <a href="https://xanathu.co.za/" target="_blank"class="button button--flex button--small portfolio__button">
+                            <p class="portfolio__description">An Online Shopify Store based in South Africa for an up
+                                and coming business</p>
+                            <a href="https://xanathu.co.za/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -557,29 +564,29 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formspree.io/f/xqkwolow" class="contact__form grid" method="POST" id="myform">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" name="Name" class="contact__input">
                         </div>
 
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" name="Email" class="contact__input">
                         </div>
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <input type="text" name="Project" class="contact__input">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="Message" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="" class="button button--flex">
+                        <a class="button button--flex" onclick="document.getElementById('myform').submit()">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
                         </a>
